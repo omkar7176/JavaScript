@@ -1,1 +1,1 @@
-console.log("Welcome in GitHub");
+console.log("Hello Omkar")
