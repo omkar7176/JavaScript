@@ -23,3 +23,21 @@ console.log(cash.toLocaleString('en-IN'));
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+// ** Math functions **
+
+console.log(Math);
+
+// abs function
+console.log(Math.abs(-8));  //--> it makes the negative numb into positive numb
+
+// round function
+console.log(Math.round(3.3));   //--> OP: 3
+console.log(Math.round(5.7));   //-->OP: 6
+console.log(Math.round(4.5));   //--> OP: 5
+
+// Other functions
+
+console.log(Math.ceil(9.2));   //-->OP: 10 -> always show higher value, if 9.1 ans is 10
+console.log(Math.floor(8.7));   //--> OP: 8 -> always show lower value
+console.log(Math.min(23,45,67,12,34,4)); //--> 4
+console.log(Math.max(23,45,67,12,34,4)); //--> 67 f
