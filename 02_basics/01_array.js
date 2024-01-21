@@ -3,14 +3,14 @@
 // Create the array :
 
 // 1st way
-// let score = [5,6,7,8,9,10];  //--> [ 5, 6, 7, 8, 9, 10 ]
-// console.log(score);
-// console.log(typeof(score)); //--> object
+let score = [5,6,7,8,9,10];  //--> [ 5, 6, 7, 8, 9, 10 ]
+console.log(score);
+console.log(typeof(score)); //--> object
 
-// // 2nd way
-// let rank = new Array(10,11,12,13,14)
-// console.log(rank);  // --> [ 10, 11, 12, 13, 14 ]
-// console.log(typeof rank);  //--> object
+// 2nd way
+let temp = new Array(10,11,12,13,14)
+console.log(temp);  // --> [ 10, 11, 12, 13, 14 ]
+console.log(typeof rank);  //--> object
 
 
 // create thta new on for the array methods
