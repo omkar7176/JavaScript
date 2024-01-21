@@ -29,7 +29,7 @@ console.log(myDate.toUTCString()); // best to use it -->
 let NewDate = new Date(2024, 0, 17) // best to use it
  //months are starting from "0th" in JS because it is array & array counting from 0.
 console.log(NewDate.toDateString()); //--> OP: Wed Jan 17 2024
-console.log(NewDate.toLocaleString());
+console.log(NewDate.toLocaleString());  //OP: 1/22/2024, 12:00:00 AM
 
 
 
