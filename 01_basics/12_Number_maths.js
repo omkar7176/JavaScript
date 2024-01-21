@@ -26,9 +26,13 @@ console.log(cash.toLocaleString('en-IN'));
 // ** Math functions **
 
 console.log(Math);
+console.log(typeof(Math))
+// OP: object
+
+
 
 // abs function
-console.log(Math.abs(-8));  //--> it makes the negative numb into positive numb
+console.log(Math.abs(-8));  //--> it makes the negative numb into positive numb but it will not convert +ve numbers into -ve.
 
 // round function
 console.log(Math.round(3.3));   //--> OP: 3
