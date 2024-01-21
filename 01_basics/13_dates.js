@@ -6,6 +6,7 @@
 let myDate = new Date();
 console.log(typeof(mydate)); //--> Interview based Question ? -Answer-> Object
 console.log(myDate.toString());
+// OP: toString() --> Sun Jan 21 2024 14:59:17 GMT+0530 (India Standard Time)
 console.log(myDate.toDateString());  // best to use it
 console.log(myDate.toLocaleDateString()); // best to use it
 console.log(myDate.toLocaleString());
