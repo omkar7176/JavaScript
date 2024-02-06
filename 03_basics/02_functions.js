@@ -65,9 +65,10 @@ handleObject({
 
 
 // ***** IMP-->  How we can acces the array values using the function. *****
-const myNewArray = [100, 200, 300]
+const myNewArray = [100, 200, 300, 400, 50]
 
 function getValues(getArray){
-    return getArray[1]
+    return getArray[2]
 }
-console.log(getValues(myNewArray));
+console.log(getValues(myNewArray)); //--> defined with old array values --> OP: 300
+console.log(getValues([90,80,70,60,50])); //OP: we can delcare the new array value in execution time. --> 70
