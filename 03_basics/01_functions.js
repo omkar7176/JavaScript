@@ -13,7 +13,7 @@ function MyName(){
 function Addition(a, b){
     console.log(a+b);
 }
-// Addition(5, 3)
+Addition(5, 3)
 
 // Note Very Very IMP: 
 // Parameters: 
@@ -24,11 +24,11 @@ function Addition(a, b){
 
 
 // Example 1:
-// function Addition(a, b){
-//     console.log(a+b);
-// }
-// const result = Addition(5, 2);
-// console.log("Result: ", result);
+function Addition(a, b){
+    console.log(a+b);
+}
+const result = Addition(5, 2);
+console.log("Result: ", result);
 
 
 // Example 2:
@@ -38,8 +38,8 @@ function Addition(a, b){
     return result 
     console.log("Omkar");  //-- it will never print because after the "return" anything will not print in any case.
 }
-// const result = Addition(10, 10);
-// console.log("Result: ", result);
+const result = Addition(10, 10);
+console.log("Result: ", result);
 // OP:
 // Omkar
 // Result:  20
@@ -61,3 +61,18 @@ function LoginUserName(username){
 console.log(LoginUserName("Omkar")); //OP: Omkar is logged in...
 console.log(LoginUserName(" ")); //OP:  is logged in...
 console.log(LoginUserName()); //OP: undefined is logged in...
+
+console.log(LoginUserName("Shyam"));  //OP: Shyam is logged in...
+
+
+
+// Example 6:
+function UserLoggedOut(username = "Sam"){
+    if(!username){
+        console.log("Please enter the username: ");
+        return
+    }
+    return `${username} is Logged out`
+    return
+}
+console.log(UserLoggedOut("Omkar"));
