@@ -25,4 +25,8 @@ newArray.shift();
 console.log(newArray);
 
 
-console.log(myarr.includes("Omkar"));
+console.log(newArray.includes("Omkar"));
+
+const names = ("Omkar", "Suraj", "John" ,"Jaesg");
+console.log(names.join());
+console.log(names);
