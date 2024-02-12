@@ -23,3 +23,6 @@ console.log(newArray);
 
 newArray.shift();
 console.log(newArray);
+
+
+console.log(myarr.includes("Omkar"));
