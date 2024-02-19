@@ -10,6 +10,7 @@ let Id = null
 let pass = Number(Id)
 // console.log(typeof pass);
 // console.log(pass);
+// OP: NaN
 
 let c = "212sn"
 let d = Number(c)
