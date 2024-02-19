@@ -19,11 +19,15 @@ let d = Number(c)
 
 let score = undefined
 // console.log(typeof(score));
+// OP: undefined
 
 let pen = undefined
 let pencil = Number(pen)
 // console.log(typeof pencil)
 // console.log(pencil)
+// OP: number
+//     Nan
+
 
 const temp = null;
 // const biggie = 56454664545654n;
