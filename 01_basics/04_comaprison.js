@@ -30,8 +30,9 @@ let pencil = Number(pen)
 
 
 const temp = null;
-// const biggie = 56454664545654n;
 // console.log(typeof(temp)); 
+// const biggie = 56454664545654n;
+// console.log(typeof(biggie));
 
 const  a = ["omkar", "ram", "shyam", "harkirat", "kunal"]
 
