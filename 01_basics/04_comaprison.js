@@ -10,12 +10,12 @@ let Id = null
 let pass = Number(Id)
 // console.log(typeof pass);
 // console.log(pass);
-// OP: NaN
 
 let c = "212sn"
 let d = Number(c)
 // console.log(typeof d)
 // console.log(d);
+// OP: NaN
 
 let score = undefined
 // console.log(typeof(score));
