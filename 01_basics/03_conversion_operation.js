@@ -1,4 +1,4 @@
-// let score = "Omkar";  --> it will show type number but the actual print the value = NaN
+// let score = "Omkar";
 // let scoree = 25;
 
 
