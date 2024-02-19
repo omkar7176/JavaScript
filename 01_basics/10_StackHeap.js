@@ -11,5 +11,5 @@ userTwo.email = "abc.google.com";
 userTwo.name = "rocky";
 userTwo.comp_name = "Microsoft";
 
-console.log(userTwo);
+console.log(userOne);
 console.log(userTwo);
