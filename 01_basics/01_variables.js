@@ -4,9 +4,10 @@ var accountPass = "1234"
 accountCity = "Pune"
 
 /*
-Do not use the var
+Prefer not use var
+because of issue in block scope and functional scope
 */
-let accountMoney;
+let accountMoney; // value is undefined
 
 accountEmail = "ram@google.com"
 accountPass = "7899"
