@@ -14,3 +14,7 @@ accountPass = "7899"
 accountCity = "Mumbai"
 
 console.table([accountId, accountEmail, accountPass, accountCity, accountMoney])
+// Run the each variable one by one
+console.log(accountEmail);
+console.log(accountPass);
+console.log(accountCity);
