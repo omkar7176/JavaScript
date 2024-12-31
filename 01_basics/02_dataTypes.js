@@ -20,8 +20,8 @@ console.log(typeof a);
 console.log(typeof state);
 
 
-console.log(typeof null);
-console.log(typeof undefined);
+console.log(typeof null); // object
+console.log(typeof undefined); //undefined
 
 // Primitive DataTypes
 /*
