@@ -16,7 +16,23 @@
 // console.log(typeof(valueNumber))
 
 // console.log(valueNumber);
+console.log("----------------------------------------------->");
 
+let score = "33abcd";
+// score = null; => if value is null
+// score = undefined; => if value is undefined
+console.log(typeof score);
+console.log(typeof (score));
+
+let valueIntNumber = Number(score)
+console.log(typeof valueIntNumber);
+console.log(valueIntNumber);
+
+// "33" => 33
+// "33abcd" => NaN
+// true => 1; false => 0
+
+console.log("----------------------------------------------->");
 
 let isLoggedIn = 1;
 
