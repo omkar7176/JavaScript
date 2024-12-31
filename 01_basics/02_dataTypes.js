@@ -10,10 +10,27 @@ let msg = true;
 let numb = 999999999999n;
 let symbi = Symbol("Omm")
 let a = null;
+let state;
 
 console.log(typeof Name);
 console.log(typeof msg);
 console.log(typeof numb);
 console.log(typeof symbi);
 console.log(typeof a);
+console.log(typeof state);
+
+
+console.log(typeof null);
 console.log(typeof undefined);
+
+// Primitive DataTypes
+/*
+1. number => 2 to power 53
+2. bigint
+3. string => ""
+4. boolean => true/false
+5. null => standalone value
+6. undefined => not defined
+7. symbol => unique
+
+*/
