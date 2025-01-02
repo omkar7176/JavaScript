@@ -24,15 +24,16 @@ console.log(cash.toLocaleString('en-IN'));
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // ** Math functions **
-
+// Math Library in JavaScript
 console.log(Math);
 console.log(typeof(Math))
 // OP: object
 
 
 
-// abs function
+// abs function ---> will give you the absolute value
 console.log(Math.abs(-8));  //--> it makes the negative numb into positive numb but it will not convert +ve numbers into -ve.
+// OP: 8
 
 // round function
 console.log(Math.round(3.3));   //--> OP: 3
