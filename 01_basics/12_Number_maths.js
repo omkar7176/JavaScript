@@ -5,7 +5,7 @@ const balance = new Number(200)
 console.log(balance);
 // console.log(typeof(balance));
 
-console.log(balance.toString().length); //--> 3 : because there are 3 numbers 
+console.log(balance.toString().length); //--> 3 : because there are 3 digit. 
 // console.log(typeof(balance));
 
 console.log(balance.toFixed(2));  // --> mostly used in E-commerce website
