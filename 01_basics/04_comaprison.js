@@ -1,10 +1,20 @@
-// console.log(null > 0);  //--> false
-// console.log(null == 0)  //--> false
-// console.log(null >=0);  //--> true, bcoz JS convert the null into 0 & OP is true.
+console.log(null > 0);  //--> false
+console.log(null == 0)  //--> false
+console.log(null >=0);  //--> true, bcoz JS convert the null into 0 & OP is true.
 
-// console.log("2" === 2);
-// console.log("Ten" === 10);
-// console.log(10 === 10);
+console.log(2 > 1);
+console.log(2 >= 1);
+console.log(2 <= 1);
+console.log(2 < 1);
+console.log(2 == 1);
+
+// For TypeScript
+console.log("2" > 1); // --> true, that's why use the typescript, it doesn't allow you to compare to different datatype. 
+console.log("02" > 1);  // --> true
+
+// console.log("2" === 2);  // --> false
+// console.log("Ten" === 10); // --> false
+// console.log(10 === 10); // --> true
 
 let Id = null
 let pass = Number(Id)
