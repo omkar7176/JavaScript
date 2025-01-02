@@ -23,7 +23,7 @@ console.log(typeof state);
 console.log(typeof null); // object
 console.log(typeof undefined); //undefined
 
-// Primitive DataTypes
+// Primitive DataTypes --> Call by Value
 /*
 1. number => 2 to power 53
 2. bigint
