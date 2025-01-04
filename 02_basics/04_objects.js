@@ -4,6 +4,8 @@ console.log(twitter);  //--> OP: {}
 
 //Creation of Non-singleton object
 const Reddit = {}
+console.log(Reddit);  //--> OP: {} 
+
 Reddit.Id = 11;
 Reddit.Name = "Shon Martin"
 Reddit.Age = 25
