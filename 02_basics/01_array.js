@@ -106,3 +106,17 @@ let name = ['Omkar', 'Ram', 'Shyam', 'John', 'Sanket']
 console.log(name.splice(2));  //--> [ 'Shyam', 'John', 'Sanket' ]
 console.log(name); //--> [ 'Omkar', 'Ram' ]
 
+
+// slice and splice (imp for interview)
+
+console.log("A", myArr);
+
+const myn1 = myArr.slice(1, 3)
+console.log("After Using slice", myn1);
+console.log("Original", myArr);
+
+const myn2 = myArr.splice(1, 3)
+console.log("After using splice", myn2);
+
+console.log("Original after using splice", myArr);
+
