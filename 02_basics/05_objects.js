@@ -37,6 +37,7 @@ console.log(platform);
 //    - We use : for assign the values to the keys.
 
 // Example 1: API gets in object format {}.
+// Remember: In JSON file the key and value, both are in " ".
 {
     "Name": "Omkar",
     "course" : "Javascript",
