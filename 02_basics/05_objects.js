@@ -35,9 +35,14 @@ console.log(platform);
 // ** JSON file: 
 //    - The JSON file is always key and values are in String.
 //    - We use : for assign the values to the keys.
+//    - Remember: In JSON file, the key and value, both are in " ".
 
+/*
+Sometimes API will get in 2 format. 
+1) in Object format
+2) in Array format
+*/
 // Example 1: API gets in object format {}.
-// Remember: In JSON file the key and value, both are in " ".
 {
     "Name": "Omkar",
     "course" : "Javascript",
