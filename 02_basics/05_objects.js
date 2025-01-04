@@ -10,7 +10,7 @@ const course = {
 
 // console.log(course.courseteacher); --> best way
 
-// Object de-structure
+// Object de-structure while extracting the values
 // Example 1:
 const {location} = course
 console.log(location);
