@@ -8,7 +8,8 @@ Reddit.Id = 11;
 Reddit.Name = "Shon Martin"
 Reddit.Age = 25
 Reddit.Location = "USA"
-console.log(Reddit); //--> OP: {}
+console.log(Reddit); 
+//--> OP: { Id: 11, Name: 'Shon Martin', Age: 25, Location: 'USA' }
 
 
 
