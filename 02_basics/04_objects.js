@@ -112,23 +112,27 @@ console.log(answer)
 
 const Users = [
     {
-        ID: "123",
+        ID: "111",
         UserName : "xyz111",
-        email : "xyz@google.com",
+        email : "abc@google.com",
     },
     {
-        ID: "123",
-        UserName : "xyz111",
-        email : "xyz@google.com",
+        ID: "222",
+        UserName : "def222",
+        email : "def@google.com",
     },
     {
-        ID: "123",
-        UserName : "xyz111",
-        email : "xyz@google.com",
+        ID: "333",
+        UserName : "ghi333",
+        email : "ghi@google.com",
     },
     {
-        ID: "123",
-        UserName : "xyz111",
-        email : "xyz@google.com",
+        ID: "444",
+        UserName : "jkl444",
+        email : "jkl@google.com",
     }
 ]
+console.log(Users[0].UserName); // OP: xyz111
+console.log(Users[1].UserName); // OP: def222
+console.log(Users[2].UserName); // OP: ghi333
+console.log(Users[3].UserName); // OP: jkl444
