@@ -15,6 +15,11 @@ const course = {
 const {location} = course
 console.log(location);
 
+// we can also alias for key name
+const {courseteacher:teacher} = course
+console.log(teacher)
+// OP: Hitesh Sir
+
 // Example 2:
 const {platform} = course
 console.log(platform);
