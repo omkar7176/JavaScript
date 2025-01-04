@@ -86,7 +86,7 @@ console.log("Result of merging two objects is :", result);
 
 //2nd way: Obbject.assign()
 const obj4 = Object.assign({}, obj1, obj2, obj3)
-// use the {} opt. but the syntax of Object assign() is target & source, so we consider the {} as target & others are source. for more info below link.
+// use the {} opt. but the syntax of Object assign() is target & source, so we consider the {} as target & others are source(obj1, obj2, obj3). for more info in the link below.
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
 console.log(obj4);
 
