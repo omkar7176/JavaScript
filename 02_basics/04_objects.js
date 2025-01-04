@@ -90,6 +90,16 @@ const obj4 = Object.assign({}, obj1, obj2, obj3)
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
 console.log(obj4);
 
+//we can also merge object using another method but in this case, the output will get in nested format --> don't use this one
+let answer = {obj2, obj3}
+console.log(answer)
+/* OP: 
+{
+  obj2: { '4': 'Sanket', '5': 'Om', '6': 'Kunal' },
+  obj3: { '7': 'A', '8': 'B', '9': 'C' }
+}
+*/
+
 
 
 
