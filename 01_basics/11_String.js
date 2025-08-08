@@ -14,6 +14,9 @@ let Name = new String("Omkar");
 console.log(Name);
 console.log(typeof(Name)); // object but it store in the stack bcoz it is primitive data type.
 
+const studName = new String("Omkar");
+console.log(studName.charAt(2)); // OP: k
+
 // METHODS
 // 1. length
 const empName = new String("Omkar");
