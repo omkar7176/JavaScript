@@ -29,4 +29,4 @@ const myFunction = function(){
     console.log("Hello World");
 }
 myFunction();
-console.log(typeof myFunction());
+console.log(typeof myFunction);  //OP: function but we call them object function
