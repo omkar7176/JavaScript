@@ -25,7 +25,7 @@ console.log(typeof undefined); //undefined
 
 // Primitive DataTypes --> Call by Value
 /*
-1. number => 2 to power 53
+1. number => range of number 2 to the power of 53
 2. bigint
 3. string => ""
 4. boolean => true/false
@@ -34,3 +34,4 @@ console.log(typeof undefined); //undefined
 7. symbol => unique
 
 */
+
