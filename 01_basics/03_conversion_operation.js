@@ -31,6 +31,7 @@ console.log(valueIntNumber);
 // "33" => 33
 // "33abcd" => NaN
 // true => 1; false => 0
+// "Omkar"=> true
 
 console.log("----------------------------------------------->");
 
@@ -47,3 +48,4 @@ let Numb = 34;
 let StringConvey = String(Numb)
 console.log(StringConvey);
 console.log(typeof StringConvey);
+
