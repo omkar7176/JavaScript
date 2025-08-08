@@ -14,7 +14,7 @@ const JSUser = {
     isLoggedIn : true,
     "full_Name" : "Omkar Tupere"
 }
-//  to print the value in function there are two ways
+//  to access the value from object there are two ways
 // 1st way:
 console.log(JSUser.Name);
 
@@ -32,15 +32,15 @@ console.log(JSUser["Age"]);
 
 
 
-// // IMP : Interview based question
+// // IMP : Interview-based question
 // How the actual Symbol Primitive_data_type used in the function.
 
 const logo = Symbol("Octocat")
 const JSClient = {
     Name : "John",
     Age : 25,
-    // logo : "Octocat",
-    [logo] : "Octocat",  // --> Correct way to use Symbol in function & then check typeof
+    // logo : "Octocat",  // typeof is "String" and not a symbol
+    [logo] : "Octocat",  // --> Correct way to use Symbol in object & then check typeof
     Country: "USA",
     "Location" : "Atlanta", 
     email : "john@google.com",
@@ -59,11 +59,11 @@ console.log(JSClient);
 
 
 
-// how we can freeze the value in the function keys.
-// using the freeze the value cannot change, it will freeze. value is not changeable.
+//How can we freeze the value in the object keys?
+// using the freeze, the value cannot change, it will freeze. The value is not changeable.
 JSClient.email = "john.microsoft.com"
-Object.freeze(JSClient);
-JSClient.email = "john.github.com"
+Object.freeze(JSClient); // To lock values in JSClient object, it won't change values; we use freeze
+JSClient.email = "john.github.com" // it will not reflect on JSClient object
 console.log(JSClient);
 
 
@@ -75,7 +75,7 @@ console.log(JSClient);
 
 
 
-// We can use the funtion as variable. like we can as variable.
+// We can use the Object as a variable like we are using a variable.
 Example :
 JSClient.greetings = function(){
     console.log("Hello JSClient");
@@ -87,7 +87,7 @@ console.log(JSClient.greetings()); // --> correct way --> OP: Hello JSClient
 JSClient.greetings = function(){
     console.log(`Hello JSClient, ${this.Name}`);
 } 
-console.log(JSClient.greetings());
+JSClient.greetings();
 
 // if we used ${Name} in function, it gives you error --> "ReferenceError: Name is not defined",
 // for give the reference in function we used "this" keyword.
