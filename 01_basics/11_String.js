@@ -12,7 +12,7 @@ console.log(`The Student name is ${StudFname} & his surname is ${StudLname}`);
 
 let Name = new String("Omkar");
 console.log(Name);
-console.log(typeof(Name)); // object but it store in the stack bcoz it is primitive data type.
+console.log(typeof(Name)); // object, but it store in the stack because it is a primitive data type.
 
 const studName = new String("Omkar");
 console.log(studName.charAt(2)); // OP: k
@@ -61,13 +61,18 @@ const radData = "My NaMe Is MuD";
 console.log(radData.toLowerCase());
 console.log(radData.toUpperCase());
 
-// 8. replace()
+// 8. trim() - Remove whitespace from both ends of a string and returns a new string, without modifying the original string.
+const langName = "       TypeScript      ";
+console.log(langName.trim());
+//OP: TypeScript
+
+// 9. replace()
 const old = "mozilla";
 const updated = old.replace("moz", "van");
 console.log(updated); // "vanilla"
 console.log(old); // "mozilla"
 
-// 9. replaceAll()
+// 10. replaceAll()
 
 let quote = "To okay or not to be okay, be okay, its okay";
 let boat = quote.replaceAll("okay", "code")
