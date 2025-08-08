@@ -50,18 +50,24 @@ console.log(sentence.indexOf('is'));
 let browser = "FirefoxMozilla";
 console.log(browser.slice(4, 10));
 
-// 6. toLowerCase() & toUpperCase()
+// 6. substring
+const langName = new String("JavaScript");
+const newString = langName.substring(0, 4);
+console.log(newString);
+//op: Java
+
+// 7. toLowerCase() & toUpperCase()
 const radData = "My NaMe Is MuD";
 console.log(radData.toLowerCase());
 console.log(radData.toUpperCase());
 
-// 7. replace()
+// 8. replace()
 const old = "mozilla";
 const updated = old.replace("moz", "van");
 console.log(updated); // "vanilla"
 console.log(old); // "mozilla"
 
-// 8. replaceAll()
+// 9. replaceAll()
 
 let quote = "To okay or not to be okay, be okay, its okay";
 let boat = quote.replaceAll("okay", "code")
